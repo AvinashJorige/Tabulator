@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabulatorWithAspdotnet", "TabulatorWithAspdotnet\TabulatorWithAspdotnet.csproj", "{7021574A-1783-4779-B285-6EA3F4CDCFFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{659AEECE-5990-4AE5-9E01-3944ECA6A9F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7021574A-1783-4779-B285-6EA3F4CDCFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7021574A-1783-4779-B285-6EA3F4CDCFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7021574A-1783-4779-B285-6EA3F4CDCFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659AEECE-5990-4AE5-9E01-3944ECA6A9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659AEECE-5990-4AE5-9E01-3944ECA6A9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659AEECE-5990-4AE5-9E01-3944ECA6A9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659AEECE-5990-4AE5-9E01-3944ECA6A9F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
