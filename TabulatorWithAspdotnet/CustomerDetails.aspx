@@ -5,7 +5,7 @@
         <div class="col-12 text-center">
             <br />
             <h4>Selecting Tables Rows with Checkboxes</h4>
-            <br />
+            <br /> 
         </div>
     </div>
     <div class="row">
