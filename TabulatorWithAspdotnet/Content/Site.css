@@ -28,3 +28,25 @@ textarea {
         padding: 0;
     }
 }
+
+.mb-10 {
+    position: relative;
+    bottom: 10px;
+}
+
+.mt-10{
+    margin-top:10px;
+}
+.list-group-item {
+    border-bottom: 1px solid #fff !important;
+    word-break: break-word;
+}
+
+.ContainerGrid {
+    height: 70vh;
+    overflow-x: scroll;
+    margin: 20px 0 0 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
