@@ -5,20 +5,15 @@ using System.Data.SqlClient;
 
 namespace Database
 {
-    public class CustomerDB
+    public class ProductDB
     {
         public readonly SqlConnection Conn = null;
-
-        public CustomerDB()
+        public ProductDB()
         {
             this.Conn = new SqlConnection(ConfigurationManager.AppSettings["SQlConnectionString"].ToString());
         }
 
-        /// <summary>
-        /// This method will get the list of Customer from database table CustomerRawInfo.
-        /// </summary>
-        /// <returns>List of customers in datatable</returns>
-        public DataTable Customers
+        public DataTable Products
         {
             get
             {
@@ -28,7 +23,7 @@ namespace Database
 
                 try
                 {
-                    Query = "SELECT  CUSTOMERID,CUSTOMERNAME,CONTACTNAME,ADDRESS,CITY,POSTALCODE,COUNTRY FROM PRACTICE.DBO.TBLCUSTOMER2 WITH(NOLOCK)";
+                    Query = "SELECT PRODUCTID,NAME,CATEGORY,MAINCATEGORY,SUPPLIERNAME,DESCRIPTION,QUANTITY,PRICE FROM PRACTICE.DBO.TBL_PRODUCT_DETAILS WITH(NOLOCK) ORDER BY PRODUCTID ASC";
                     SqlCommand sqlCommand = new SqlCommand(Query, Conn);
                     Conn.Open();
 
